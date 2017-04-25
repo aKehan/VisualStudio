@@ -123,7 +123,6 @@
   <ItemGroup>
     <Compile Include="RegistryHelper.cs" />
     <Compile Include="Services\VSGitServices.cs" />
-    <Compile Include="Settings.cs" />
     <Compile Include="Base\EnsureLoggedInSection.cs" />
     <Compile Include="Base\TeamExplorerInvitationBase.cs" />
     <Compile Include="Base\TeamExplorerNavigationItemBase.cs" />
@@ -142,14 +141,6 @@
     <Compile Include="Sync\EnsureLoggedInSectionSync.cs" />
     <Compile Include="Sync\GitHubPublishSection.cs" />
     <Compile Include="Services\TeamExplorerServices.cs" />
-    <Compile Include="TeamFoundation\NavigationItemFactory.cs" />
-    <Compile Include="TeamFoundation\ResolvingTeamExplorerNavigationItemAttribute.cs" />
-    <Compile Include="TeamFoundation\ResolvingTeamExplorerSectionAttribute.cs" />
-    <Compile Include="TeamFoundation\SectionFactory.cs" />
-    <Compile Include="TeamFoundation\TeamExplorerServiceHolderFactory.cs" />
-    <Compile Include="TeamFoundation\TeamExplorerServicesFactory.cs" />
-    <Compile Include="TeamFoundation\TeamFoundationResolver.cs" />
-    <Compile Include="TeamFoundation\VSGitServicesFactory.cs" />
     <None Include="..\..\script\Key.snk" Condition="$(Buildtype) == 'Internal'">
       <Link>Key.snk</Link>
     </None>
